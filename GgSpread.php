@@ -75,4 +75,18 @@ class GgSpread {
      public function insert(){
          return $this->spreadsheet->insertRow($this->output, $this->spreadsheetKey, $this->worksheetKey);
      }
+
+    /*
+     * get Spreadsheet Key
+     */
+     public function getSpreadsheetKey(){
+	 return $this->spreadsheetKey;
+     }
+
+    /*
+     * get Worksheet Key
+     */
+     public function getWorksheetKey(){
+	 return $this->worksheetKey();
+     }
 }
