@@ -6,7 +6,7 @@ GgSpreadは、Google Spreadsheetに簡単に書込が出来るPHPラッパーで
 # 依存関係
 ---
 
-[Zendフレームワーク](http://framework.zend.com/)
+[Zendフレームワーク v1](http://framework.zend.com/)
 
 # 使い方
 ----------------
